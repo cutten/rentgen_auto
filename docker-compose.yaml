@@ -4,7 +4,7 @@ services:
     image: xtls-reality:latest
     build: .
     environment:
-      - SNI=dl.google.com
+      - SNI=images.apple.com
     container_name: xtls-reality
     restart: always
     ports:

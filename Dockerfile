@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-ARG XRAY_CORE_VERSION=v1.8.4
+ARG XRAY_CORE_VERSION=v25.12.8
 ENV SNI=dl.google.com
 
 RUN apk add --no-cache \
